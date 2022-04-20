@@ -1,0 +1,240 @@
+* {margin: 0; padding: 0; box-sizing: inherit;}
+html { font-size: 62.5%; box-sizing: border-box;}
+body {height: 100vh; position: relative; display: flex; align-items: flex-start; justify-content: center; }
+.deactive {display: none;}
+
+/*--------------------------------------------------------------*/
+/*ICON BUTTON*/
+.show-modal {font-size: 2rem; padding: 0; margin: 0rem 3rem 0rem 0rem; margin-top: 9px; border: none; background-color: transparent; color: #cc9900; cursor: pointer; justify-content: center;}
+.show-modal:hover {font-size: 1.5em;}
+/*--------------------------------------------------------------*/
+
+/*X CROSS BUTTON*/
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;  
+}
+
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+/*OPEN BOX CONTAINER*/
+.modal {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
+  background-color: none;
+  padding: 0rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  }
+
+
+.container {
+  display: flex;
+  padding: 60px 60px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; 
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 15px 16px 0.17px rgba(0, 0, 0, 0.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/*
+    main {
+    background: #000;
+    padding: 20px 0px;
+  }*/
+  
+  .signup {
+    margin-bottom: 150px;
+  }
+    
+  /*BOXES YOU TYPE INTO*/
+  input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 23px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    appearance: unset;
+  }
+  
+  input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  input[type="checkbox"] {
+    appearance: checkbox;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+    margin-top: 0px;
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #cc9900;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .signup-image {
+    margin: 0 55px;
+    margin-top: 0px;
+  }
+  
+  /*SIGN UP TITLE*/
+  .form-title {
+    margin-bottom: 10px;
+  }
+  
+  /*REGISTER BUTTON*/
+  .form-submit {
+    display: inline-block;
+    background: #cc9900;
+    color: #fff;
+    border-bottom: none;
+    width: auto;
+    padding: 10px 29px;
+    border-radius: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background: #b38601;
+  }
+  
+  .signup-image-link {
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: center;
+  }
+  
+  .term-service {
+    font-size: 10px;
+    color: #222;
+  }
+  
+  /*x2 CONTAINERS THAT HOLD LEFT AND RIGHT CONTAINERS*/
+  .signup-form {
+    margin: 0px;
+    width: 100%;
+    padding-left: 0px;    
+  }
+  
+  .register-form {
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  .agree-term {
+    display: inline-block;
+    width: auto;
+  }
+  
+  /*ICON PLACEMENTS*/
+  label {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+    color: #cc9900;
+  }
+  
+  .label-agree-term {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    font-size: .7em;
+  }
+
+  .form-group small {
+    font-size: .6em;
+    color:#000;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: calc(100% - 30px);
+      max-width: 100%;
+    }
+    .close-modal {top: 1.2rem; right: 4rem;}
+  }
+    
+  @media screen and (max-width: 768px) {
+    .container {flex-direction: column;}
+  
+    .signup-form {
+      margin: 0;
+      padding: 0 0 30px 0;
+    }
+  
+    .signup-form,
+    .signup-image {
+      width: auto;
+    }
+  
+    .form-button {
+      text-align: center;
+    }
+  
+    .form-title {
+      text-align: center;
+    }
+  }
+ 

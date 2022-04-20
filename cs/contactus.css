@@ -1,0 +1,33 @@
+/*MAIN CONTAINER - BLACK BACKGROUND*/
+.contactmain {height: 100%; margin-top: 0px; margin-bottom: 0px; padding: 1% 20% 3% 20%; width: 100%; background-color: black;border-color: green solid 9px;}
+
+/*SEATING PLAN OUTER BOX - GOLD BOX*/
+.contactcontainer1 { width: 100%; height: 600px; padding: 5% 5%; border:#cc9900 solid 3px; border-radius: 30px;}
+
+/*CONTAINER HOLDING INPUT BOXES AND TITLES*/
+.contactform {width: 100%; background-color: none; display: flex; flex-direction: column;}
+
+/*CONTAINER FOR A TAG AND WHITE INPUT BOXES*/
+.formsection {
+    width: 100%; text-align: left;}
+
+/*HEADING FOR BOXES*/
+.formsection a {color: #cc9900; font-size: 1.1em; left: 50px;}
+
+/*WHITE INPUT BOXES*/
+.contactform input[type=text] {width: 100%; padding: 10px;  margin-top: 5px; border-radius: 10px;}
+
+/*MESSAGE BOX WHERE THEY CAN TYPE IN THEIR MESSAGE*/
+.contactform textarea {height: 150px; width: 100%; padding: 10px; font-size: 15px; margin-top: 5px; border-radius: 10px; font-family: 'Poppins', sans-serif;}
+
+/*BUTTONS SUBMIT AND RESET*/
+.contactform input[type=submit], input[type=reset] {justify-content: space-between;background-color: #cc9900; color: white; width: 120px; text-align: center; border-radius: 10px; padding: 10px 04px;}
+
+/*BUTTON HOVER*/
+.contactform input[type=submit]:hover, input[type=reset]:hover {background-color: #a87f03; cursor: pointer;}
+
+
+/**/
+.formsectionlast {margin-top: 15px;justify-content: center;display: flex; flex: row; color: #cc9900; font-size: 1em;}
+
+.formsectionlast2 {width: 45%; justify-content: space-between; display: flex; flex: row; color: #cc9900; font-size: 1em;}

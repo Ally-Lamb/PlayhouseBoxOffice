@@ -1,0 +1,177 @@
+/*MAIN CONTAINER*/
+section.seatingmain {height: 400px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%; background-color: black;}
+
+/*SEATING HEADER*/
+.seatingheading h1 {color: white; background-color: black; text-align: center; margin: 0; font-size:1.5em; padding: 5px 0 15px 0;}
+
+/*SEATING PLAN OUTER BOX* - GOLD BOX*/
+.seatingplan {padding: 4% 5%; width: 100%; height: 357px; position: relative; border:#cc9900 solid 3px; display: flex; flex-direction: row;}
+
+/*SEATING DETAILS BOX - YELLOW*/
+section.seatingmain2 {height: 240px; margin-top: 0px; margin-bottom: 0px; padding: 0% 13%; width: 100%; background-color: black;}
+.seatingplan2 {padding: 2% 1%; width: 100%; height: 200px; position: relative; background-color: #000; border-top:#cc9900 solid 3px; display: flex; flex-direction: row;}
+.seatingplanbox3 {width: 100%; position: relative; padding-left: 2%;}
+.seatingplanbox3 h4 {margin-bottom: 4px; color: #cc9900; font-size: .9em;}
+.seatingplanbox3 p {font-size: .9em;}
+
+
+/*INNER SEATING - LEFT BLUE BOX*/
+.seatingplanbox1 {width: 50%; height: 282px; position: relative; margin-right: 50px;}
+
+/*INNER SEATING - RIGHT GREEN BOX*/
+.seatingplanbox2 {width: 50%; height: 282px; position: relative;}
+
+
+/*--------------------------------------------------------*/
+/*S1 CONTAINER*/
+.seatingplancontainer1 {top: 0px; left: 0px; width: 121.469px; height: 147.562px;position: absolute; background: url(../images/seatingareas/S1.png) no-repeat; background-size: 100% 100%;}
+.seatingplancontainer1:hover, .seatingplancontainer1:active, .seatingplancontainer1:focus {cursor: pointer; background: url(../images/seatingareas/S1hover.png) no-repeat left top; background-size: 100% 100%;}
+    
+/*--------------------------------------------------------*/
+/*S2 CONTAINER*/
+.seatingplancontainer2 {top: 0px; right: 100px; width: 101.392px; height: 101.392px; position: absolute; background: url(../images/seatingareas/S2.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer2:hover, .seatingplancontainer2:active, .seatingplancontainer2:focus {cursor: pointer; background: url(../images/seatingareas/S2hover.png) no-repeat left top; background-size: 100% 100%;}
+
+/*--------------------------------------------------------*/
+/*S3 CONTAINER*/
+.seatingplancontainer3 {top: 33px; right: 154px; width: 118.14px; height: 73.83px; position: absolute; background: url(../images/seatingareas/S3.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer3:hover, .seatingplancontainer3:active, .seatingplancontainer3:focus  {cursor: pointer; background: url(../images/seatingareas/S3hover.png) no-repeat left top; background-size: 100% 100%;}
+
+/*--------------------------------------------------------*/
+/*S4 CONTAINER*/
+.seatingplancontainer4 {top: 33px; right: 0px; width: 136.698px; height: 117.687px; position: absolute; background: url(../images/seatingareas/S4.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer4:hover, .seatingplancontainer4:active, .seatingplancontainer4:focus {cursor: pointer; background: url(../images/seatingareas/S4hover.png) no-repeat left top; background-size: 100% 100%;}
+
+/*--------------------------------------------------------*/
+/*S5 CONTAINER*/
+.seatingplancontainer5 {top: 90px; right: 0px; width: 194.637px; height: 91.398px; position: absolute; background: url(../images/seatingareas/S5.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer5:hover, .seatingplancontainer5:active, .seatingplancontainer5:focus  {cursor: pointer; background: url(../images/seatingareas/S5hover.png) no-repeat left top; background-size: 100% 100%;}
+ 
+/*--------------------------------------------------------*/
+/*S6 CONTAINER*/
+.seatingplancontainer6 {top: 90px; left: 0px; width: 194.637px; height: 91.398px; position: absolute; background: url(../images/seatingareas/S6.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer6:hover, .seatingplancontainer6:active, .seatingplancontainer6:focus  {cursor: pointer; background: url(../images/seatingareas/S6hover.png) no-repeat left top; background-size: 100% 100%;}
+ 
+/*--------------------------------------------------------*/
+/*S7 CONTAINER*/
+.seatingplancontainer7 {bottom: 10px; left: 0px; width: 231.753px; height: 141.225px; position: absolute; background: url(../images/seatingareas/S7.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer7:hover, .seatingplancontainer7:active, .seatingplancontainer7:focus  {cursor: pointer; background: url(../images/seatingareas/S7hover.png) no-repeat left top; background-size: 100% 100%;}
+    
+/*--------------------------------------------------------*/
+/*S8 CONTAINER*/
+.seatingplancontainer8 {bottom: 0px; right: 0px; width: 185.584px; height: 99.914px; position: absolute; background: url(../images/seatingareas/S8.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer8:hover, .seatingplancontainer8:active, .seatingplancontainer8:focus  {cursor: pointer; background: url(../images/seatingareas/S8hover.png) no-repeat left top; background-size: 100% 100%;}
+
+/*--------------------------------------------------------*/
+/*S9 CONTAINER*/
+.seatingplancontainer9 {bottom: 0px; left: 0px; width: 185.584px; height: 99.914px; position: absolute; background: url(../images/seatingareas/S9.png) no-repeat;background-size: 100% 100%;}
+.seatingplancontainer9:hover, .seatingplancontainer9:active, .seatingplancontainer9:focus  {cursor: pointer; background: url(../images/seatingareas/S9hover.png) no-repeat left top; background-size: 100% 100%;}
+    
+/*--------------------------------------------------------*/
+/*S10 CONTAINER*/
+.seatingplancontainer10 {bottom: 10px; right: 0px; width: 231.753px; height: 141.225px; position: absolute; background: url(../images/seatingareas/S10.png) no-repeat; background-size: 100% 100%;}
+.seatingplancontainer10:hover, .seatingplancontainer10:active, .seatingplancontainer10:focus  {cursor: pointer; background: url(../images/seatingareas/S10hover.png) no-repeat left top; background-size: 100% 100%;}
+
+
+/*___________________________________________________________________________________________*/
+/*MEDIA QUERIES - FOR RESIZING*/
+@media screen and (max-width: 1000px) {
+section.seatingmain {height: 350px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%;  background-color: black;}
+.seatingplan {padding: 4% 5%; width: 100%; height: 298px; position: relative; border:#cc9900 solid 3px; display: flex; flex-direction: row;}
+        .seatingplanbox1 {margin-right: 39px;}
+        .seatingplanbox1, .seatingplanbox2 {width: 50%; height: 240px; position: relative;}
+                .seatingplancontainer1  {top: 0px; left: 0px; width: 101.224px; height: 122.298px;}
+                .seatingplancontainer2  {top: 0px; left: 140px; width: 84.493px; height: 84.493px;}
+                .seatingplancontainer3  {top: 30px; right: 128px; width: 98.45px; height: 61.525px;}
+                .seatingplancontainer4  {top: 30px; right: 0px; width: 113.915px; height: 98.073px;}
+                .seatingplancontainer5  {top: 77px; right: 0px; width: 162.197px; height: 76.165px;}
+                .seatingplancontainer6  {top: 77px; left: 0px; width: 162.197px; height: 76.165px;}
+                .seatingplancontainer7  {bottom: 10px; left: 0px; width: 193.128px; height: 117.687px;}
+                .seatingplancontainer8  {bottom: 0px; right: 0px; width: 154.653px; height: 83.262px;}
+                .seatingplancontainer9  {bottom: 0px; left: 0px; width: 154.653px; height: 83.262px;}
+                .seatingplancontainer10 {bottom: 10px; right: 0px; width: 193.128px; height: 117.687px;}
+}
+
+/*___________________________________________________________________________________________*/
+@media screen and (max-width: 825px) {
+section.seatingmain {height: 300px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%;  background-color: black;}
+.seatingplan {padding: 4% 4.5%; width: 100%; height: 247px; position: relative; border:#cc9900 solid 3px; display: flex; flex-direction: row;}
+        .seatingplanbox1 {margin-right: 30px;}
+        .seatingplanbox1, .seatingplanbox2 {width: 50%; height: 195px; position: relative;}
+                .seatingplancontainer1  {top: 0px; left: 0px; width: 83.51px; height: 101.449px;}
+                .seatingplancontainer2  {top: 0px; left: 118px; width: 69.707px; height: 69.707px;}
+                .seatingplancontainer3  {top: 24px; right: 106px; width: 81.221px; height: 50.758px;}
+                .seatingplancontainer4  {top: 24px; right: 0px; width: 93.98px; height: 80.91px;}
+                .seatingplancontainer5  {top: 63px; right: 0px; width: 133.813px; height: 62.836px;}
+                .seatingplancontainer6  {top: 63px; left: 0px; width: 133.813px; height: 62.836px;}
+                .seatingplancontainer7  {bottom: 6px; left: 0px; width: 159.331px; height: 97.092px;}
+                .seatingplancontainer8  {bottom: 0px; right: 0px; width: 127.589px; height: 68.691px;}
+                .seatingplancontainer9  {bottom: 0px; left: 0px; width: 127.589px; height: 68.691px;}
+                .seatingplancontainer10 {bottom: 6px; right: 0px; width: 159.331px; height: 97.092px;}
+section.seatingmain2 {height: 180px;}
+.seatingplanbox3 h4 {font-size: .7em;}
+.seatingplanbox3 p {font-size: .7em;}
+.seatingplan2 {height: 160px;}
+}
+
+ /*___________________________________________________________________________________________*/
+@media screen and (max-width: 760px) {       
+section.seatingmain {height: 280px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%; background-color: black;}
+.seatingplan {padding: 4% 4.7%; width: 100%; height: 227px; position: relative; border:#cc9900 solid 3px; display: flex; flex-direction: row;}
+        .seatingplanbox1 {margin-right: 30px;}
+        .seatingplanbox1, .seatingplanbox2 {width: 50%; height: 180px; position: relative;}
+                .seatingplancontainer1  {top: 0px; left: 0px; width: 76.93px; height: 93.456px;}
+                .seatingplancontainer2  {top: 0px; left: 107px; width: 64.215px; height: 64.215px;}
+                .seatingplancontainer3  {top: 22px; right: 97px; width: 74.822px; height: 46.759px;}
+                .seatingplancontainer4  {top: 22px; right: 0px; width: 86.576px; height: 74.535px;}
+                .seatingplancontainer5  {top: 57px; right: 0px; width: 123.27px; height: 57.885px;}
+                .seatingplancontainer6  {top: 57px; left: 0px; width: 123.27px; height: 57.885px;}
+                .seatingplancontainer7  {bottom: 6px; left: 0px; width: 146.777px; height: 89.442px;}
+                .seatingplancontainer8  {bottom: 0px; right: 0px; width: 117.536px; height: 63.279px;}
+                .seatingplancontainer9  {bottom: 0px; left: 0px; width: 117.536px; height: 63.279px;}
+                .seatingplancontainer10 {bottom: 6px; right: 0px; width: 146.777px; height: 89.442px;}
+}
+
+/*___________________________________________________________________________________________*/
+@media screen and (max-width: 625px) {
+section.seatingmain {height: 230px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%;  background-color: black;}
+.seatingplan {padding: 4% 4.6%; width: 100%; height: 187px; position: relative; border:#cc9900 solid 2px; display: flex; flex-direction: row;}
+        .seatingplanbox1 {margin-right: 24px;}
+        .seatingplanbox1, .seatingplanbox2 {width: 50%; height: 148px; position: relative;}
+                .seatingplancontainer1  {top: 0px; left: 0px; width: 63.265px; height: 76.855px;}
+                .seatingplancontainer2  {top: 0px; left: 89px; width: 52.808px; height: 52.808px;}
+                .seatingplancontainer3  {top: 18px; right: 80px; width: 61.531px; height: 38.453px;}
+                .seatingplancontainer4  {top: 18px; right: 0px; width: 71.197px; height: 61.295px;}
+                .seatingplancontainer5  {top: 47px; right: 0px; width: 101.373px; height: 47.603px;}
+                .seatingplancontainer6  {top: 47px; left: 0px; width: 101.373px; height: 47.603px;}
+                .seatingplancontainer7  {bottom: 4px; left: 0px; width: 120.705px; height: 73.555px;}
+                .seatingplancontainer8  {bottom: 0px; right: 0px; width: 96.658px; height: 52.039px;}
+                .seatingplancontainer9  {bottom: 0px; left: 0px; width: 96.658px; height: 52.039px;}
+                .seatingplancontainer10 {bottom: 4px; right: 0px; width: 120.705px; height: 73.555px;}
+section.seatingmain2 {height: 140px;}
+.seatingplanbox3 h4 {font-size: .5em;}
+.seatingplanbox3 p {font-size: .5em;}
+.seatingplan2 {height: 130px;}
+}
+/*___________________________________________________________________________________________*/
+@media screen and (max-width: 425px) {
+section.seatingmain {height: 150px; margin-top: 0px; margin-bottom: 0px; padding: 1% 13%; width: 100%; background-color: black;}
+.seatingplan {padding: 4% 4%; width: 100%; height: 129px; position: relative; border:#cc9900 solid 2px; display: flex; flex-direction: row;}
+div.seatingheading h1 {font-size:1em;}
+        .seatingplanbox1 {margin-right: 15px;}
+        .seatingplanbox1, .seatingplanbox2 {width: 50%; height: 100px; position: relative;}
+                .seatingplancontainer1  {top: 0px; left: 0px; width: 43.02px; height: 52.261px;}
+                .seatingplancontainer2  {top: 0px; left: 62px; width: 35.91px; height: 35.91px;}
+                .seatingplancontainer3  {top: 11px; right: 55px; width: 41.841px; height: 26.148px;}
+                .seatingplancontainer4  {top: 11px; right: 0px; width: 48.414px; height: 41.681px;}
+                .seatingplancontainer5  {top: 31px; right: 0px; width: 68.934px; height: 32.37px;}
+                .seatingplancontainer6  {top: 31px; left: 0px; width: 68.934px; height: 32.37px;}
+                .seatingplancontainer7  {bottom: 3px; left: 0px; width: 82.079px; height: 50.017px;}
+                .seatingplancontainer8  {bottom: 0px; right: 0px; width: 65.728px; height: 35.386px;}
+                .seatingplancontainer9  {bottom: 0px; left: 0px; width: 65.728px; height: 35.386px;}
+                .seatingplancontainer10 {bottom: 3px; right: 0px; width: 82.079px; height: 50.017px;}
+section.seatingmain2 {height: 110px;}
+.seatingplanbox3 h4 {font-size: .5em;}
+.seatingplanbox3 p {font-size: .3em; color: white;}
+.seatingplan2 {height: 80px;}
+}

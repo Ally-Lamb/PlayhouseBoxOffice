@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Playhouse Box Office</title>
+		<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+		<link rel="stylesheet" type="text/css" media="all" href="cs/screen.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/seatingplan.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/contactus.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/modalboxstyle.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/indexpage.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+   		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	</head>
+	
+<body>
+	<div id="page">
+			<header>
+				<a class="logo" title="Playhouse Logo" href="index.html"></a>
+				<div class="hero">
+					<a>240 Columbo Street Wellington</a>
+					<h1>Wellingtons Historic Cinema</h1>
+						<!--REACT COMPONENT START------------------------------------------------------------------>
+						<style>
+							.shapecontainer {padding: 2px; background-color: none; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; height: 50px; width: 100%; margin: 0;}
+						</style>
+						<div class="shapecontainer"></div>
+						<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+						<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+						<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+						<script type="text/babel" src="js/multipleShapes.js"></script>
+						<!--REACT COMPONENT END--------------------------------------------------------------------->
+				</div>
+			</header>
+	<!--NAV-->
+	<nav>
+		<ul>
+			<!--SIGN UP BUTTON TAG-->
+			<li>
+				<button class="show-modal"><i class="zmdi zmdi-account material-icons-name" style="font-size: 1.5em;" title="Sign Up"></i>
+			</li>
+			<!--CONTACT TAG-->
+			<li>
+				<a title="Contact Us" href="contactus.html">Contact Us</a>
+			</li>
+			<!--SEATING TAG-->
+			<li>
+				<a title="Seating" aria-haspopup="true">Seating</a>
+				<ul>
+					<li>
+						<a title="Seating Location" href="seating.html">Seating Location</a> 
+					</li>
+				</ul>
+			</li>	
+			<!--EVENTS TAG-->
+			<li>
+				<a title="Events" aria-haspopup="true">Events</a>
+				<ul>
+					<li>
+						<a title="Whats On" aria-haspopup="true">Whats On</a> 
+						<ul>
+							<li>
+								<a title="Current Events" href="currentevents.html">Current Events</a> 
+							</li>
+							<li>
+								<a title="Upcoming Events" href="upcomingevents.html">Upcoming Events</a> 
+							</li>
+						</ul>
+					</li>
+				</ul>					
+			</li>				
+			<!--ABOUT TAG-->
+			<li>
+				<a title="About" aria-haspopup="true">About</a>
+				<ul>
+					<li>
+						<a title="About Playhouse" href="about.html">About Playhouse</a> 
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<!--ABOUT TAG-->
+	<div class="seatingheading">
+		<h1>Whats on this week!</h1>
+		</div>
+
+	<!--MOVIE FLIP SECTION-->
+	<section class="indexmovies">
+		<aside>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="images/movies/moviesSpiderMan.png" alt="Spider Man" >
+					</div>
+					<div class="flip-box-back">
+						<div class="flipbackheader1">Spider Man</div>
+						<div class="flipbackheader2">2021  |  R  |  2h 10m</div>
+						<div class="flipbackparagraph">With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</a></div>
+						<button class="flipbackbutton"><a href="seating.html">SEATING LAYOUT</a></button>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="images/movies/moviesMarryMe.png" alt="Marry Me" >
+					</div>
+					<div class="flip-box-back">
+						<div class="flipbackheader1">Marry Me</div>
+						<div class="flipbackheader2">2022  |  R  |  1h 52m</div>
+						<div class="flipbackparagraph">Music superstars Kat Valdez and Bastian are getting married before a global audience of fans. But when Kat learns, seconds before her vows, that Bastian has been unfaithful, she decides to marry Charlie, a stranger in the crowd, instead.</a></div>
+						<button class="flipbackbutton"><a href="seating.html">SEATING LAYOUT</a></button>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="images/movies/movieTopGun.png" alt="TopGun" >
+					</div>
+					<div class="flip-box-back">
+						<div class="flipbackheader1">Top Gun</div>
+						<div class="flipbackheader2">2022  |  PG-13  |  2h 10m</div>
+						<div class="flipbackparagraph">After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.</a></div>
+						<button class="flipbackbutton"><a href="seating.html">SEATING LAYOUT</a></button>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<aside>
+			<div class="flip-box">
+				<div class="flip-box-inner">
+					<div class="flip-box-front">
+						<img src="images/movies/moviesThor.png" alt="Thor Ragnarok" >
+					</div>
+					<div class="flip-box-back">
+						<div class="flipbackheader1">Thor Ragnarok</div>
+						<div class="flipbackheader2">2017  |  PG-13  |  2h 10m</div>
+						<div class="flipbackparagraph">Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</a></div>
+						<button class="flipbackbutton"><a href="seating.html">SEATING LAYOUT</a></button>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</section>	
+
+	<!----------FOOTER---------->
+	<footer>
+		<img alt= "Sponsor1" src="images/Te+Auaha+Logo.png">
+		<img alt= "Sponsor1" src="images/toiwhakaari.png"><br>
+		&copy; Playhouse Box Office
+		<div class="content">
+			<a title="Privacy Policy" href="#">Privacy Policy</a>
+			<a title="Terms of Service" href="#">Terms of Service</a>
+		</div>
+	</footer>
+
+	<!----------Start of Modal Box---------->	
+	<div class="modal hidden">
+		<button class="close-modal">&times;</button>
+			<div class="container">
+				<div class="signup-form">
+					<h5 class="form-title">Sign up</h5>
+					<form class="register-form" id="register-form" action="#">
+						<div class="form-group">
+							<label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+							<input type="text" name="name" id="name" placeholder="Your Name" />
+							<small>First and Last Name</small>
+						</div>
+						<div class="form-group">
+							<label for="email"><i class="zmdi zmdi-email"></i></label>
+							<input type="email" name="email" id="email" placeholder="Your Email" pattern=".+@gmail\.com" required />
+							<small>Example: xxx@gmail.com</small>
+						</div>
+						<div class="form-group">
+							<label for="pass"><i class="zmdi zmdi-lock"></i></label>
+							<input type="password" name="pass" id="pass" placeholder="Password" />
+							<small>Combination of Upper and Lowercase letters, numbers and symbols.</small>
+						</div>
+						<div class="form-group">
+							<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+							<input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
+						</div>
+						<div class="form-group">
+							<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+							<label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all
+								statements in <a href="#" class="term-service">Terms of service</a></label>
+						</div>
+						<div class="form-group form-button">
+							<input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+						</div>
+					</form>
+				</div>
+				<!--RIGHT COLUMN-->
+				<div class="signup-image">
+					<figure><img src="images/pbomodalimage.png" alt="sign up image"></figure>
+					<a href="index.html" class="signup-image-link">Return to homepage</a>
+				</div>
+			</div>       
+		</div>
+		<div class="overlay hidden"></div>
+		<script src="js/modalboxscript.js"></script>
+				
+	<!----------TOGGLE BOX---------->
+		<nav class="navbar">
+			<div class="brand-title"></div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>			
+			<div class="navbar-links">
+				<ul>
+					<!--HOME TAG-->
+					<li>
+						<a title="Home" aria-haspopup="true" href="index.html">Home</a>
+					</li>					
+					<!--ABOUT TAG-->
+					<li>
+						<a title="About" aria-haspopup="true" href="about.html">About</a>
+					</li>
+					<!--SEATING TAG-->
+					<li>
+						<a title="Seating" aria-haspopup="true" href="seating.html">Seating</a>
+					</li>
+					<!--CONTACT TAG-->
+					<li>
+						<a title="Contact Us" href="contactus.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+<!--PAGE CONTAINER END-->
+</div>
+
+<script src="js/script.js"></script>
+
+<!--BODY CONTAINER END-->
+</body>
+
+</html>

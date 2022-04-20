@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Playhouse Box Office</title>
+		<link rel="stylesheet" type="text/css" media="all" href="cs/screen.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/seatingplan.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/contactus.css">
+		<link rel="stylesheet" type="text/css" media="all" href="cs/modalboxstyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+   		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<!--PAGE CONTAINER START-->
+	<div id="page">
+
+	<!--HEADER BANNDER SECTION-->
+			<header>
+				<a class="logo" title="Playhouse Logo" href="index.html"><span>Empire Marching Team</span></a>
+
+				<div class="hero">
+					<h1>Meet our Playhouse Team</h1>
+					<!--REACT COMPONENT------------------------------------------------------------------>
+					<style>
+						.shapecontainer {
+							padding: 2px;
+							background-color: none;
+							display: flex;
+							flex-direction: row;
+							flex-wrap: wrap;
+							justify-content: center;
+							height: 50px;
+							width: 100%;
+							margin: 0;
+						}
+						</style>
+						<div class="shapecontainer"></div>
+							<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+							<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+							<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+							<script type="text/babel" src="js/multipleShapes.js"></script>
+					<!----------------------------------------------------------------------------------->					</div>
+			</header>
+			
+	<!--NAV-->
+		<nav>
+			<ul>
+				<!--SIGN UP BUTTON TAG-->
+				<li>
+					<button class="show-modal"><i class="zmdi zmdi-account material-icons-name" style="font-size: 1.5em;" title="Sign Up"></i></label>
+				</li>
+
+				<!--CONTACT TAG-->
+				<li>
+					<a title="Contact Us" href="contactus.html">Contact Us</a>
+				</li>
+
+				<!--SEATING TAG-->
+				<li>
+					<a title="Seating" aria-haspopup="true">Seating</a>
+					<ul>
+						<li>
+							<a title="Seating Location" href="seating.html">Seating Location</a> 
+						</li>
+					</ul>
+				</li>	
+
+				<!--EVENTS TAG-->
+				<li>
+					<a title="Events" aria-haspopup="true">Events</a>
+					<ul>
+						<li>
+							<a title="Whats On" aria-haspopup="true">Whats On</a> 
+							<ul>
+								<li>
+									<a title="Current Events" href="currentevents.html">Current Events</a> 
+								</li>
+								<li>
+									<a title="Upcoming Events" href="upcomingevents.html">Upcoming Events</a> 
+								</li>
+							</ul>
+						</li>
+					</ul>					
+				</li>				
+
+				<!--ABOUT TAG-->
+				<li>
+					<a title="About" aria-haspopup="true">About</a>
+					<ul>
+						<li>
+							<a title="About Playhouse" href="about.html">About Playhouse</a> 
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		
+	<!--PROFILE SECTION-->
+	<div class="main">
+		<section class="profile">
+			<aside>
+				<div class="content">
+					<img alt="George Tongariro" src="images/profileimages/george.png">
+					<h4>George Tongariro</h4>
+					<small>THEATRE MANAGER</small>
+					<p>George is PBO Theatre Manager who works to provide a tightly run company that offers its customers the best experience. George has worked for PBO
+					alongside Mary Wayne for 10 years coordinating with Toi Whakaari, Te Auaha and the PBO board.
+					</p>
+				</div>
+			</aside>
+
+			<aside>
+				<div class="content">
+					<img alt="Mary Wayne" src="images/profileimages/mary.png">
+					<h4>Mary Wayne</h4>
+					<small>ACCOUNTANT</small>
+					<p>Mary Wayne has been a long time member of the PBO Team. Although her main roll is the Accounts, Mary has also 
+					been a trainer of all new clerks joining over the last 10 years. Mary has exceptional knowledge in teaching as well as handling all financial aspects of the company.
+					</p>
+				</div>
+			</aside>
+
+			<aside>
+				<div class="content">
+					<img alt="Kirsty Wilson" src="images/profileimages/Kirsty.png">
+					<h4>Kirsty Wilson</h4>
+					<small>BOX OFFICE CLERK</small>
+					<p>Kirsty has been one of PBO highly organised clerks for the last 5 years.
+					Her fast customer service skills has meant customers are never waiting long and
+					her attention to detail and ensuring you have a great experience is her number 1 priority.
+					</p>
+				</div>
+			</aside>
+			<aside>
+				<div class="content">
+					<img alt="David Grant" src="images/profileimages/david.png">
+					<h4>David Grant</h4>
+					<small>BOX OFFICE CLERK</small>
+					<p>David is PBO's go to guy. With his quick thinking he is able to multi-task and fix any issues
+					that may come his way. Although David is fairly new to our team, he is a respected and valued member of our Team. </p>
+				</div>
+			</aside>
+		</section>
+	</div>	
+
+	<!----------FOOTER---------->
+	<footer>
+		<img alt= "Sponsor1" src="images/Te+Auaha+Logo.png">
+		<img alt= "Sponsor1" src="images/toiwhakaari.png"><br>
+		&copy; Playhouse Box Office
+		<div class="content">
+			<a title="Privacy Policy" href="#">Privacy Policy</a>
+			<a title="Terms of Service" href="#">Terms of Service</a>
+		</div>
+	</footer>
+
+	<!----------Start of Modal Box---------->	
+	<div class="modal hidden">
+		<button class="close-modal">&times;</button>
+				<div class="container">
+				<div class="signup-form">
+					<h5 class="form-title">Sign up</h5>
+					<form class="register-form" id="register-form" action="#">
+						<div class="form-group">
+							<label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+							<input type="text" name="name" id="name" placeholder="Your Name" />
+							<small>First and Last Name</small>
+						</div>
+						<div class="form-group">
+							<label for="email"><i class="zmdi zmdi-email"></i></label>
+							<input type="email" name="email" id="email" placeholder="Your Email" pattern=".+@gmail\.com" required />
+							<small>Example: xxx@gmail.com</small>
+						</div>
+						<div class="form-group">
+							<label for="pass"><i class="zmdi zmdi-lock"></i></label>
+							<input type="password" name="pass" id="pass" placeholder="Password" />
+							<small>Combination of Upper and Lowercase letters, numbers and symbols.</small>
+						</div>
+						<div class="form-group">
+							<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+							<input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password" />
+						</div>
+						<div class="form-group">
+							<input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+							<label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to all
+								statements in <a href="#" class="term-service">Terms of service</a></label>
+						</div>
+						<div class="form-group form-button">
+							<input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+						</div>
+					</form>
+				</div>
+				<!--RIGHT COLUMN-->
+				<div class="signup-image">
+					<figure><img src="images/pbomodalimage.png" alt="sing up image"></figure>
+					<a href="index.html" class="signup-image-link">Return to homepage</a>
+				</div>
+			</div>       
+		</div>
+		<div class="overlay hidden"></div>
+		<script src="js/modelboxscript.js"></script>
+				
+	<!----------TOGGLE BOX---------->
+		<nav class="navbar">
+			<div class="brand-title"></div>
+			<a href="#" class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<!--HOME TAG-->
+					<li>
+						<a title="Home" aria-haspopup="true" href="index.html">Home</a>
+					</li>					
+					<!--ABOUT TAG-->
+					<li>
+						<a title="About" aria-haspopup="true" href="about.html">About</a>
+					</li>
+					<!--SEATING TAG-->
+					<li>
+						<a title="Seating" aria-haspopup="true" href="seating.html">Seating</a>
+					</li>
+					<!--CONTACT TAG-->
+					<li>
+						<a title="Contact Us" href="contactus.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+<!--PAGE CONTAINER END-->
+</div>
+
+<script src="js/script.js"></script>
+
+<!--BODY CONTAINER END-->
+</body>
+
+</html>
