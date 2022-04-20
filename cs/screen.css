@@ -194,7 +194,7 @@ footer img {height:20px; border-radius: 0px; margin: 0px 10px 0px 10px;}
     section.main aside div.content {background-size: 55px 55px; padding-top: 60px;}
     section.profile aside div.content img {width: 100%;}
     section.profile aside .content {padding: 30px 0px 20px 20px;}
-    section.indexmovies aside {width: 80%; float:none; margin: 0; position: relative; left: 28%;}
+    section.indexmovies aside {width: 40%; float:none; margin: 0; position: relative; left: 5%;}
     section.indexmovies aside .flip-box {height: 430px;}
    
     nav {padding-top: 10px;}
