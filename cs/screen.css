@@ -206,7 +206,6 @@ footer img {height:20px; border-radius: 0px; margin: 0px 10px 0px 10px;}
 @media screen and (max-width: 684px) {
     nav > ul {padding-left: 118px;}
     nav > ul > li > a {width: auto; padding: 15px 41px 15px 20px;}
-
     section.indexmovies aside {width: 40%; float:none; margin: 0; position: relative; left: 4%;}
 }
 
@@ -244,8 +243,10 @@ footer img {height:20px; border-radius: 0px; margin: 0px 10px 0px 10px;}
 }
 
 @media screen and (max-width: 525px){
-    section.indexmovies aside {width: 80%; float:none; margin: 0; position: relative; left: 17%;}
+    section.indexmovies aside {width: 38%; float:none; margin: 0; position: relative; left: -10%;}
 }
+
+
 /*___________________________________________________________________________________________*/
 @media screen and (max-width: 425px) {
     header {height: 200px; background-image: url(../images/banner_425.jpg); background-size: 100% 100%;}
