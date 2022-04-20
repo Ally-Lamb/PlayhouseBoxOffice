@@ -222,7 +222,7 @@ footer img {height:20px; border-radius: 0px; margin: 0px 10px 0px 10px;}
     section.main aside {width: 100%; float: none; text-align: left;}
     section.main aside div.content {margin: 8px 20px 8px 0px; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px;}
     section.main aside div.content a {padding-left: 15px;}
-    section.indexmovies aside {width: 40%; float:none; margin: 0; position: relative; left: 5%;}
+    section.indexmovies aside {width: 40%; float:none; margin: 0; position: relative; left: .01%;}
 
     /*TOGGLE BOX*/
     nav {display: none;}
